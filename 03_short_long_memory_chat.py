@@ -13,7 +13,7 @@ DEBUG_MEMORY = True
 
 
 def ensure_memory_file():
-    """Create memory.json if it doesn't exist (so students can SEE it)."""
+    """Create memory.json if it doesn't exist ."""
     if not MEMORY_PATH.exists():
         MEMORY_PATH.write_text("[]", encoding="utf-8")
 
